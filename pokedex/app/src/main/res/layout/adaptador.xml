@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#212121"
+    android:id="@+id/click"
+    android:layout_marginTop="6dp">
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:background="#3d8ab1"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:id="@+id/carta"
+        app:cardCornerRadius="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <ImageView
+
+                    android:id="@+id/imagen_pokemon"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#fff"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp" />
+
+                <TextView
+                    android:id="@+id/nombre_pokemon"
+                    android:text="nombre pokemon"
+                    android:textStyle="bold"
+                    android:textSize="40sp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/tipo_pokemon"
+                android:text="tipo"
+                android:textStyle="italic"
+                android:textSize="30sp"
+                android:layout_width="100dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
